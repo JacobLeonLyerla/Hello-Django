@@ -139,3 +139,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication'
     )
 }
+
+GRAPHENE = {
+    'SCHEMA': 'notes.schema.schema'  # dir.file.varname
+}
